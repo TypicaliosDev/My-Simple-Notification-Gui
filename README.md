@@ -1,2 +1,2 @@
-# Booga-Copy-Fucker
-A gui to destroy booga copies
+# Typ's Simple Notification System
+A simple notification system I created
