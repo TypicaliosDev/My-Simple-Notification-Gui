@@ -1,4 +1,4 @@
-local TypsSimpleNotificationGui = Instance.new("ScreenGui")
+local ChlosSimpleNotificationGui = Instance.new("ScreenGui")
 local Templates = Instance.new("Folder")
 local Template = Instance.new("TextLabel")
 local UICorner = Instance.new("UICorner")
@@ -10,10 +10,10 @@ local List = Instance.new("Frame")
 local UIListLayout = Instance.new("UIListLayout")
 local UIStroke = Instance.new("UIStroke")
 local UIStroke2 = Instance.new("UIStroke")
-TypsSimpleNotificationGui.Name = "Typ's Simple Notification Gui"
-TypsSimpleNotificationGui.Parent = game.CoreGui
+ChlosSimpleNotificationGui.Name = "Chlo's Simple Notification Gui"
+ChlosSimpleNotificationGui.Parent = game.CoreGui
 Templates.Name = "Templates"
-Templates.Parent = TypsSimpleNotificationGui
+Templates.Parent = ChlosSimpleNotificationGui
 Template.Name = "Template"
 Template.Parent = Templates
 Template.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -102,6 +102,6 @@ function MakeStyle2Notification(Name,Text,Time)
 	Debris:AddItem(Style2Template, Time)
 
 end
-MakeStyle2Notification("Credits:","Notification System By Typ! You are running version 2.52", 8)
+MakeStyle2Notification("Credits:","Notification System By Chlo! You are running version 2.52", 8)
 print("MakeNotification(Name,Text,Time)")
 print("MakeStyle2Notification(Title,Text,Time)")
