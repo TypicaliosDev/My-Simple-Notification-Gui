@@ -3,7 +3,7 @@ A simple notification system I created in like 5 min for my friend, I'm going to
 
 use this loadstring:                       
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/TypicaliosDev/My-Simple-Notification-Gui/main/Notification%20System.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ChloDev/My-Simple-Notification-Gui/main/Notification%20System.lua"))()
 ```
 to make a notification do:                             
 ```
